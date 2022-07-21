@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main: rgb(240, 240, 240);
+    --background-transparent: rgba(0, 0, 0, 0.85);
+    --accent: rgb(255, 145, 0);
+}
+
+body {
+    background: url(./img/pexels-eneida-nieves-905847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--main);
+}
+
+.content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    padding: 24px 0;
+    background-color: var(--background-transparent);
+    border-bottom: 2px solid var(--accent);
+    
+}
+
+.footer {
+    background-color: var(--background-transparent);
+    border-top: 2px solid var(--accent);
+    padding: 12px 0;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    font-size: 40px;
+    color: var(--main);
+    cursor: pointer; 
+    transition: all 500ms;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+    border-bottom: 2px solid var(--accent);
+    transition-timing-function: ease-in-out;
+}
+
+.active {
+    border-bottom: 2px solid var(--accent);
+}
+
+.main-container {
+    max-width: 1140px;
+    margin: 48px auto;
+
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    background-color: var(--background-transparent);
+    padding: 40px 0;
+    border-radius: 50px;
+}
+
+.box {
+    width: 300px;
+    padding-bottom: 48px;
+    transition: all 500ms;
+}
+
+.box:hover {
+    transform: scale(1.1);
+
+}
+
+.box img {
+    width: 150px;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    padding-bottom: 24px;
+    color: var(--accent);
+}
+
+button {
+    margin: 20px 0;
+    border: 2px solid var(--accent);
+    color: (var(--main));
+    padding: 12px 24px;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: all 500ms;
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: var(--accent);
+    border: 2px solid var(--main);;
+}
+
+.home-content {
+    text-align: center;
+    gap: 16px;
+    background-color: var(--background-transparent);
+    padding: 40px 50px;
+    border-radius: 50px;
+}
+
+.title-accent {
+    font-family: 'Great Vibes', cursive;
+    color: var(--accent);
+    font-size: 56px;
+    margin-bottom: -28px;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+.gradient-underline {
+    margin: 20px auto;
+    width: 250px;
+    height: 2px;
+    background: radial-gradient(red, var(--accent));
+}
+
+p.italic {
+    font-style: italic;
+    font-size: 24px;
+    padding: 32px 0;
+}
+
+button.xl {
+    font-size: 20px;
+}
