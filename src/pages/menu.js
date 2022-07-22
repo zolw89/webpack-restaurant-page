@@ -1,3 +1,6 @@
+import pizza from '../img/pngegg (1).png'
+
+
 const menu = () => {
     const menuDiv = document.createElement('div');
     menuDiv.classList.add('main-content');
@@ -13,7 +16,7 @@ const menu = () => {
         menuDiv.appendChild(box);
 
         const boxImg = document.createElement('img')
-        boxImg.src = "../dist/img/pngegg (1).png";
+        boxImg.src = pizza;
         const boxTitle = document.createElement('h3');
         boxTitle.textContent = `Pizza ${pizzaArray[i]}`;
         const boxText = document.createElement('p');

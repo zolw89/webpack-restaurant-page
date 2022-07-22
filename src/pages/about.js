@@ -1,3 +1,6 @@
+
+import pizzaMan from '../img/pexels-anna-tarazevich-6937431.jpg'
+
 const about = () => {
     const aboutDiv = document.createElement('div');
     aboutDiv.classList.add('about-content');
@@ -16,7 +19,7 @@ const about = () => {
     boxDiv.classList.add('flex');
 
     const aboutImg = document.createElement('img');
-    aboutImg.src = "../dist/img/pexels-anna-tarazevich-6937431.jpg";
+    aboutImg.src = pizzaMan;
 
     const descriptionBox = document.createElement('div');
     descriptionBox.classList.add('box2');
