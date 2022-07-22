@@ -16,7 +16,7 @@ const about = () => {
     boxDiv.classList.add('flex');
 
     const aboutImg = document.createElement('img');
-    aboutImg.src = "../src/img/pexels-anna-tarazevich-6937431.jpg";
+    aboutImg.src = "../dist/img/pexels-anna-tarazevich-6937431.jpg";
 
     const descriptionBox = document.createElement('div');
     descriptionBox.classList.add('box2');

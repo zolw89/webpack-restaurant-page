@@ -13,7 +13,7 @@ const menu = () => {
         menuDiv.appendChild(box);
 
         const boxImg = document.createElement('img')
-        boxImg.src = "../src/img/pngegg (1).png";
+        boxImg.src = "../dist/img/pngegg (1).png";
         const boxTitle = document.createElement('h3');
         boxTitle.textContent = `Pizza ${pizzaArray[i]}`;
         const boxText = document.createElement('p');
