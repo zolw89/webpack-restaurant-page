@@ -98,7 +98,7 @@ ul li:hover {
     width: 150px;
 }
 
-h2 {
+h3 {
     font-family: 'Great Vibes', cursive;
     font-size: 32px;
     padding-bottom: 24px;
@@ -136,7 +136,7 @@ button:hover {
     margin-bottom: -28px;
 }
 
-h1 {
+h1, h2 {
     font-size: 56px;
 }
 
@@ -155,4 +155,36 @@ p.italic {
 
 button.xl {
     font-size: 20px;
+}
+
+.about-content {
+    text-align: center;
+    gap: 16px;
+    background-color: var(--background-transparent);
+    padding: 40px 50px;
+    border-radius: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex img {
+    width: 50%;
+    min-width: 400px;
+    padding: 50px 0;
+}
+
+.box2 {
+    width: 50%;
+    min-width: 400px;
+    padding: 20px 20px;
+}
+
+.box2 h3 {
+    font-size: 44px;
+    padding-bottom: 32px;
 }

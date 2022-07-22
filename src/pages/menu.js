@@ -14,7 +14,7 @@ const menu = () => {
 
         const boxImg = document.createElement('img')
         boxImg.src = "../src/img/pngegg (1).png";
-        const boxTitle = document.createElement('h2');
+        const boxTitle = document.createElement('h3');
         boxTitle.textContent = `Pizza ${pizzaArray[i]}`;
         const boxText = document.createElement('p');
         boxText.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. A iste quas quo explicabo ipsam ut expedita nisi similique labore? Quidem!"
